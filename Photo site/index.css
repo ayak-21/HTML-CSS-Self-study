@@ -1,0 +1,77 @@
+/* PC用スタイル */
+@media screen and (min-width: 768px) {
+  body {
+    /* margin: 0; */
+    padding-left:140px;
+    background-color: #F4F9FF;
+  }
+  .home {
+    font-size: 20px;
+    text-decoration-line: none;
+    color: #333333;
+  }
+  .mainimg {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 80px;
+  }
+
+  /* INDEX */
+  .index {
+    background-color: white;
+    font: normal normal bold 18px/22px Meiryo;
+    width: 100%;
+    padding: 30px 745px 30px 200px
+  }
+  .index > h1 {
+    color: #333333;
+    font-size: 30px;
+    padding-left: 17px;
+  }
+  .indextext {
+    color: #333333;
+    font: normal normal normal 14px/17px Meiryo;
+    line-height: 50px;
+  }
+
+  /* DETAIL */
+  h1 {
+    color: #333333;
+    font-size: 30px;
+    padding-left: 215px;
+  }
+  .detail {
+    display: flex;
+    justify-content: center;
+    padding-left: 215px;
+  }
+  .deatilimg {
+    width: 270px;
+    height: 270px;
+  }
+  .detail > span {
+    padding-left: 60px;
+  }
+  h2 {
+    margin: auto;
+    font: normal normal bold 18px/22px Meiryo;
+  }
+  .detailtext {
+    line-height: 30px;
+    font: normal normal bold 18px/22px Meiryo;
+  }
+  p {
+    width: 50%;
+    font: normal normal normal 14px/17px Meiryo;
+  }
+  .online {
+    text-decoration: solid;
+  }
+
+  footer {
+    padding-left: 215px;
+    padding-top: 118px;
+    color: #333333;
+    font: normal normal normal 10px/12px Meiryo;
+  }
+}
